@@ -1,0 +1,105 @@
+/*ESTILO PARA O CORPO PRINCIPAL DA PÁGINA COM O OBJETIVO DE ALINHAMENTO*/
+body{
+
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    background: rgb(202, 202, 202);
+
+}
+
+/*ESTILO DA DIVISÃO SOBRE A EMPRESA*/
+.sobre{
+
+    position: relative;
+    margin-top: 170px;
+    margin-bottom: 50px;
+    background: rgb(255, 255, 255);
+    width: 90%;
+    max-width: 700px;
+    border: 1px solid gray;
+    border-radius: 20px;
+    box-shadow: 1px 1px 15px rgb(0, 0, 0);
+
+}
+
+/*MEDIA QUERIE DA DIVISÃO SOBRE A EMPRESA*/
+@media screen and (max-width: 700px) {
+
+    .sobre {
+
+        max-width: 90%;
+
+    }
+
+}
+
+/*ESTILO PARA O CORPO DE TEXTO SOBRE A EMPRESA*/
+.historia {
+
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 30px;
+    flex-direction: column;
+    gap: 20px;
+    
+}
+
+/*ESTILO PARA O CORPO DE TEXTO SOBRE A EMPRESA*/
+.historia p {
+
+    font-family: "Dosis", sans-serif;
+    font-size: 18px;
+    margin-top: 10px;
+    line-height: 1.5;
+    text-align: justify;
+    z-index: 1;
+    margin-left: 10%;
+    margin-right: 10%;
+
+}
+
+/*MEDIA QUERIE PARA O CORPO DE TEXTO SOBRE A EMPRESA*/
+@media screen and (max-width: 500px) {
+
+    .historia p {
+
+        margin-left: 5%;
+        margin-right: 5%;
+
+    }
+
+}
+
+/*ESTILO PARA O CORPO DE TEXTO SOBRE A EMPRESA*/
+.historia h3 {
+
+    font-family: "Dosis", sans-serif;
+    border-bottom: 1px solid black;
+    padding: 10px;
+    text-align: center;
+
+}
+
+/*ESTILO PARA O CORPO DE TEXTO SOBRE A EMPRESA*/
+.historia h2{
+
+    font-family: "Dosis", sans-serif;
+    text-align: center;
+
+}
+
+/*ESTILO PARA A IMAGEM DA EMPRESA AO FUNDO*/
+.cavalopreto {
+
+    position: absolute;
+    z-index: 0;
+    opacity: 0.08;
+    padding: 50px;
+    width: 100%;
+    height: auto;
+
+}
+
+

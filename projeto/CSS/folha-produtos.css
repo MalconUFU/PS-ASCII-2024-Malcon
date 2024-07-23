@@ -1,0 +1,421 @@
+/*ESTILO PARA O CONTAINER DE COMPRA*/
+#compra{
+
+    margin-left: 10px;
+    margin-top: 170px;
+    margin-bottom: 50px;
+    display: flex;
+    flex-direction: row;
+    gap: 30px;
+    justify-content: center;
+    align-items: center;
+
+}
+
+/*MEDIA QUERIE PARA O CONTAINER DE COMPRA*/
+@media screen and (min-width: 2560px){
+
+    #compra{
+
+        margin-top: 335px;
+
+    }
+
+}
+
+/*MEDIA QUERIE PARA O CONTAINER DE COMPRA*/
+@media screen and (max-width: 1100px){
+
+    #compra{
+
+        flex-wrap: wrap;
+
+    }
+
+}
+
+/*ESTILO PARA A SEÇÃO QUE CONTÉM O NOME E DESCRIÇÃO DO PRODUTO*/
+.nome-descricao {
+
+    font-family: "Dosis", sans-serif;
+    font-size: 14px;
+    box-shadow: 1px 1px 15px rgb(0, 0, 0);
+    padding: 20px;
+    background: rgb(255, 255, 255);
+    width: 90%;
+    max-width: 350px;
+    display: flex;
+    flex-direction: column;
+    gap: 30px;
+}
+
+/*MEDIA QUERIE PARA A SEÇÃO DO NOME E DESCRIÇÃO*/
+@media screen and (min-width: 2560px){
+
+    .nome-descricao{
+
+        max-width: 650px;
+
+    }
+
+}
+
+/*MEDIA QUERIE PARA A SEÇÃO DO NOME E DESCRIÇÃO*/
+@media screen and (min-width: 2560px){
+
+.nome-descricao h2{
+
+    font-size: 60px;
+
+    }
+
+}
+
+/*ESTILO PARA OS TÍTULOS DENTRO DA SEÇÃO NOME E DESCRIÇÃO*/
+.nome-descricao h1 {
+
+    font-size: 50px;
+    
+}
+
+/*MEDIA QUERIE PARA OS TÍTULOS DENTRO DA SEÇÃO NOME E DESCRIÇÃO*/
+@media screen and (min-width: 2560px){
+
+    .nome-descricao h1 {
+
+        font-size: 100px;
+        
+    }
+
+}
+
+/*ESTILO PARA AS ESPECIFICAÇÕES DO PRODUTO*/
+.especificacoes p{
+
+    font-size: 16px;
+    text-align: left;
+
+}
+
+/*MEDIA QUERIE PARA AS ESPECIFICAÇÕES DO PRODUTO*/
+@media screen and (min-width: 2560px){
+
+    .especificacoes p{
+
+        font-size: 40px;
+    
+    }
+
+}
+
+/*ESTILO PARA A DESCRIÇÃO*/
+.descricao p{
+
+    font-size: 16px;
+    margin-left: 0px;
+    text-align: justify;
+
+}
+
+/*MEDIA QUERIE PARA A DESCRIÇÃO*/
+@media screen and (min-width: 2560px){
+
+    .descricao p{
+
+        font-size: 35px;
+    
+    }
+
+}
+
+/*ESTILO PARA A IMAGEM DA ROUPA*/
+.roupa {
+
+    box-shadow: 1px 1px 15px rgb(0, 0, 0);
+    border: 1px solid rgb(167, 161, 161);
+    width: 90%;
+    max-width: 500px;
+    height: auto;
+    max-height: 600px;
+    
+}
+
+/*MEDIA QUERIA PARA A IMAGEM DA ROUPA*/
+@media screen and (min-width: 2560px){
+
+    .roupa {
+
+        width: 90%;
+        max-width: 1000px;
+        max-height: 1100px;
+        
+    }
+    
+
+}
+
+/*ESTILO PARA O FORMULÁRIO DE COMPRA*/
+.formulario {
+
+    font-family: "Dosis", sans-serif;
+    padding: 10px;
+    box-shadow: 1px 1px 15px rgb(0, 0, 0);
+    border: 1px solid gray;
+    width: 90%;
+    max-width: 450px;
+    display: flex;
+    flex-direction: column;
+    gap: 30px;
+
+}
+
+/*MEDIA QUERIE PARA O FORMULÁRIO DE COMPRA*/
+@media screen and (min-width: 2560px){
+
+    .formulario{
+
+        gap: 50px;
+        max-width: 800px;
+        height: 1200px;
+
+    }
+
+}
+
+/*MEDIA QUERIE PARA O FORMULÁRIO DE COMPRA*/
+@media screen and (min-width: 2560px){
+
+    .formulario h2{
+
+        font-size: 50px;
+
+    }
+
+}
+
+/*ESTILO PARA A SELEÇÃO DE TAMANHO*/
+.tamanhos {
+    display: flex;
+    flex-direction: row;
+    gap: 20px;
+}
+
+/*ESTILO PARA A SELEÇÃO DE TAMANHO*/
+.tamanhos input[type="radio"] {
+    display: none;
+}
+
+/*ESTILO PARA A SELEÇÃO DE TAMANHO*/
+.tamanhos label {
+    cursor: pointer;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 30px;
+    height: 30px;
+    border: 1px solid #000;
+    border-radius: 50%;
+    background-color: #fff;
+}
+
+/*MEDIA QUERIE PARA A SELEÇÃO DE TAMANHO*/
+@media screen and (min-width: 2560px){
+
+    .tamanhos label {
+
+        font-size: 40px;
+        width: 90px;
+        height: 90px;
+    }
+
+}
+
+/*ESTILO PARA A SELEÇÃO DE TAMANHO*/
+.tamanhos label::before {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+    height: 100%;
+}
+
+#P + label::before {
+    content: 'P';
+}
+
+#M + label::before {
+    content: 'M';
+}
+
+#G + label::before {
+    content: 'G';
+}
+
+#GG + label::before {
+    content: 'GG';
+}
+
+.tamanhos input[type="radio"]:checked + label {
+    color: white;
+    background-color: #000;
+}
+
+/*ESTILO PARA A SELEÇÃO DE COR*/
+select{
+
+    border: none;
+    padding: 0 10px 0 10px;
+    width: 40%;
+    height: 50px;
+    border: 1px solid gray;
+    border-radius: 10px;
+    background-color: rgb(255, 255, 255);
+    font-size: 15px;
+    padding: 10px;
+
+}
+
+/*MEDIA QUERIE PARA A SELEÇÃO DE COR*/
+@media screen and (min-width: 2560px){
+
+    select{
+
+        font-size: 35px;
+        width: 70%;
+        height: 70px;
+    
+    }
+
+}
+
+/*ESTILO PARA A QUANTIDADE*/
+#quantidade{
+
+    border: 1px solid black;
+    border-radius: 10px;
+    padding: 10px;
+    width: 60%;
+
+}
+
+/*MEDIA QUERIE PARA A QUANTIDADE*/
+@media screen and (min-width: 2560px){
+
+    #quantidade{
+
+        font-size: 35px;
+        width: 70%;
+        height: 70px;
+    
+    }
+
+}
+
+/*ESTILO PARA O PREÇO DO PRODUTO*/
+.preco{
+
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    margin-left: 20px;
+
+}
+
+/*ESTILO PARA O PREÇO DO PRODUTO*/
+.preco h1{
+
+    font-size: 50px;
+
+}
+
+
+@media screen and (min-width: 2560px){
+
+    .preco h1{
+
+        font-size: 100px;
+
+    }
+
+}
+
+/*ESTILO PARA O PREÇO DO PRODUTO*/
+.preco p{
+
+    font-size: 20px;
+    margin-left: 20px;
+
+}
+
+/*MEDIA QUERIE PARA O PREÇO DO PRODUTO*/
+@media screen and (min-width: 2560px){
+
+    .preco p{
+
+        font-size: 40px;
+    
+    }
+
+}
+
+/*ESTILO PARA A MENSAGEM DE COMPRA À VISTA*/
+#av{
+
+    margin-top: 20px;
+    font-size: 25px;
+
+}
+
+/*MEDIA QUERIE PARA A MENSAGEM DE COMPRA À VISTA*/
+@media screen and (min-width: 2560px){
+
+    #av{
+
+        margin-top: 50px;
+        font-size: 40px;
+    
+    }
+
+}
+
+/*ESTILO PARA O BOTÃO COMPRAR*/
+#comprar{
+
+    margin-top: 15px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+}
+
+/*ESTILO PARA O BOTÃO COMPRAR*/
+#comprar a{
+
+    font-weight: 600;
+    font-size: 30px;
+    text-decoration: none;
+    background: rgb(221, 213, 213);
+    padding: 30px;
+    border-radius: 5%;
+    color: black;
+    letter-spacing: 5px;
+
+}
+
+/*MEDIA QUERIE PARA O BOTÃO COMPRAR*/
+@media screen and (min-width: 2560px){
+
+    #comprar a{
+
+        font-size: 70px;
+    
+    }
+
+}
+
+/*ANIMAÇÃO PARA O BOTÃO COMPRAR*/
+#comprar a:hover{
+
+    color: white;
+
+}

@@ -1,0 +1,280 @@
+/*ESTILO PARA O CORPO PRINCIPAL DA PÁGINA COM O OBJETIVO DE ALINHAMENTO*/
+body{
+
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    background: rgb(202, 202, 202);
+
+}
+
+/*ESTILO PARA A DIVISÃO DE ENTREGA DO PRODUTO*/
+.entrega{
+
+    margin-top: 170px;
+    margin-bottom: 50px;
+    background: rgb(255, 255, 255);
+    width: 700px;
+    border: 1px solid gray;
+    border-radius: 20px;
+    box-shadow: 1px 1px 15px rgb(0, 0, 0);
+
+}
+
+/*MEDIA QUERIE PARA A DIVISÃO DE ENTREGA DO PRODUTO*/
+@media screen and (max-width: 375px){
+
+    .entrega{
+
+        margin-top: 200px;
+        width: 100%;
+        
+    }
+
+}
+
+/*MEDIA QUERIE PARA A DIVISÃO DE ENTREGA DO PRODUTO*/
+@media screen and (max-width: 400px){
+
+    .entrega{
+
+        margin-top: 200px;
+        width: 100px;
+        
+    }
+
+}
+
+/*MEDIA QUERIE PARA A DIVISÃO DE ENTREGA DO PRODUTO*/
+@media screen and (max-width: 500px){
+
+    .entrega{
+
+        margin-top: 200px;
+        width: 400px;
+        
+    }
+
+}
+
+/*MEDIA QUERIE PARA A DIVISÃO DE ENTREGA DO PRODUTO*/
+@media screen and (max-width: 600px){
+
+    .entrega{
+
+        margin-top: 200px;
+        width: 500px;
+        
+    }
+
+}
+
+/*ESTILO PARA O FORMULÁRIO DE ENTREGA DO PRODUTO*/
+.formulario-entrega{
+
+    font-family: "Dosis", sans-serif;
+    margin: 20px;
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+    gap: 30px;
+
+}
+
+/*ESTILO PARA O FORMULÁRIO DE ENTREGA DO PRODUTO*/
+.formulario-entrega a{
+
+    text-decoration: none;
+    background: rgb(83, 226, 83);
+    border-radius: 20px;
+    padding: 20px; 
+    color: black;
+
+}
+
+/*ESTILO PARA O FORMULÁRIO DE ENTREGA DO PRODUTO*/
+.formulario-entrega h2{
+
+    padding: 10px 150px 10px 150px;
+    border-bottom: 1px solid black;
+
+}
+
+/*MEDIA QUERIE PARA O FORMULÁRIO DE ENTREGA DO PRODUTO*/
+@media screen and (max-width: 400px){
+
+    .formulario-entrega h2{
+
+        padding: 10px 10px 10px 10px;
+    
+    }
+
+}
+
+/*MEDIA QUERIE PARA O FORMULÁRIO DE ENTREGA DO PRODUTO*/
+@media screen and (max-width: 500px){
+
+    .formulario-entrega h2{
+
+        padding: 10px 50px 10px 50px;
+    
+    }
+
+}
+
+/*ESTILO PARA OS CAMPOS DE DADOS PESSOAIS*/
+.dados-pessoais{
+
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    gap: 30px;
+    justify-content: center;
+    align-items: center;
+
+}
+
+/*MEDIA QUERIA PARA OS CAMPOS DE DADOS PESSOAIS*/
+@media screen and (max-width: 450px){
+
+    .dados-pessoais{
+
+
+        flex-direction: column;
+    
+    }
+
+}
+
+/*ESTILO PARA OS CAMPOS DE DADOS PESSOAIS*/
+.dados-pessoais input{
+
+    border: 1px solid black;
+    border-radius: 10px;
+    padding: 10px;
+    width: 300px;
+
+}
+
+/*MEDIA QUERIA PARA OS CAMPOS DE DADOS PESSOAIS*/
+@media screen and (max-width: 400px){
+
+    .dados-pessoais input{
+
+
+        width: 200px;
+    
+    }
+
+}
+
+/*ESTILO PARA OS CAMPOS DE DADOS PESSOAIS*/
+.dados-pessoais label{
+
+    padding-left: 5px;
+
+}
+
+
+/*ESTILO PARA OS CAMPOS NOME, SOBRENOME, CPF E TELEFONE*/
+.nome, .sobrenome, .cpf, .telefone{
+
+    display: flex;
+    flex-direction: column;
+
+}
+
+/*ESTILO PARA OS CAMPOS DE DADOS PESSOAIS*/
+.cpf input{
+
+    width: 200px;
+
+}
+
+/*ESTILO PARA OS CAMPOS DE DADOS PESSOAIS*/
+.telefone input{
+
+    width: 150px;
+
+}
+
+/*ESTILO PARA OS CAMPOS DE DADOS PESSOAIS*/
+.dados-pessoais #pagamento{
+
+    width: 180px;
+    height: 50px;
+    border: 1px solid black;
+    border-radius: 10px;
+    padding: 10px;
+
+}
+
+/*ESTILO PARA OS CAMPOS DE ENDEREÇO*/
+.endereco{
+
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    gap: 30px;
+    justify-content: center;
+    align-items: center;
+
+
+}
+
+/*MEDIA QUERIE PARA OS CAMPOS DE ENDEREÇO*/
+@media screen and (max-width: 450px){
+
+    .endereco{
+
+        flex-direction: column;
+    
+    }
+
+}
+
+/*ESTILO PARA OS CAMPOS DE ENDEREÇO*/
+.endereco #estado{
+
+    width: 180px;
+    height: 50px;
+    border: 1px solid black;
+    border-radius: 10px;
+    padding: 10px;
+    
+}
+
+/*ESTILO PARA OS CAMPOS DE ENDEREÇO*/
+.cidade, .rua, .numero, .bairro, .cep{
+
+    display: flex;
+    flex-direction: column;
+
+}
+
+/*ESTILO PARA OS CAMPOS DE ENDEREÇO*/
+.endereco input{
+
+    border: 1px solid black;
+    border-radius: 10px;
+    padding: 10px;
+    width: 200px;
+    margin-bottom: 5px;
+    
+}
+
+/*ESTILO PARA OS CAMPOS DE ENDEREÇO*/
+.numero input, .cep input{
+
+    width: 100px;
+
+}
+
+/*ESTILO PARA OS CAMPOS DE ENDEREÇO*/
+.endereco label{
+
+    padding-left: 5px;
+ 
+ }

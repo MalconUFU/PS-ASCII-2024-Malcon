@@ -1,0 +1,1154 @@
+@import url('https://fonts.googleapis.com/css2?family=Playwrite+HR+Lijeva:wght@100..400&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Dosis:wght@200..800&display=swap');
+
+/*STYLE CORINGA PARA TODO O CORPO DO SITE*/
+*{
+
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+
+}
+
+/*ESTILO PARA O CABEÇALHO DO SITE*/
+header{
+
+    background: rgba(0, 0, 0, 0.7);
+    display: flex;
+    flex-direction: row;
+    position: fixed;
+    top: 0px;
+    width: 100%;
+    z-index: 1000;
+    padding: 10px;
+    align-items: center;
+    justify-content: center;
+    
+}
+
+/*MEDIA QUERIE PARA O CABEÇALHO*/
+@media screen and (max-width: 1100px){
+
+    header{
+        
+        padding: 15px;
+        top: -20px;
+        flex-direction: column;
+
+    }
+
+}
+
+/*ESTILO PARA A LOGO DO SITE*/
+.logotipo{
+    
+    margin-left: 30px;
+    width: 90px;
+
+}
+
+/*MEDIA QUERIE PARA A LOGO*/
+@media screen and (min-width: 2560px){
+
+    .logotipo{
+    
+        margin-left: 30px;
+        width: 160px;
+    
+    }
+    
+
+}
+
+/*MEDIA QUERIE PARA A LOGO*/
+@media screen and (max-width: 1100px){
+
+    .logotipo{
+
+        display: none;
+    
+    }
+
+}
+
+/*ESTILO PARA O NOME DO SITE*/
+.titulo a{
+
+    font-family: "Dosis", sans-serif;
+    letter-spacing: 20px;
+    text-decoration: none;
+    font-size: 40px;
+    color: rgb(255, 255, 255);
+    margin: 0px 0px 10px 40px;
+
+}
+
+/*MEDIA QUERIE PARA O NOME DO SITE*/
+@media screen and (min-width: 2560px){
+
+    .titulo a{
+
+
+        margin: 50px;
+        font-size: 60px;
+
+    }
+    
+
+}
+
+/*MEDIA QUERIE PARA O NOME DO SITE*/
+@media screen and (max-width: 1100px){
+
+    .titulo{
+        
+        margin: 9px;
+
+    }
+
+}
+
+/*MEDIA QUERIE PARA O NOME DO SITE*/
+@media screen and (max-width: 1100px){
+
+    .titulo a{
+
+        margin: 0px;
+        font-size: 35px;
+
+    }
+
+}
+
+/*ESTILO PARA O CAMPO DE BUSCA*/
+.busca{
+
+    background: white;
+
+    border-radius: 40px;
+    padding: 10px;
+    margin-left: 30px;
+
+    height: 50px;
+    width: 800px;
+
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+
+}
+
+/*MEDIA QUERIE PARA O CAMPO DE BUSCA*/
+@media screen and (min-width: 2560px){
+
+    .busca{
+
+        margin: 0;
+        height: 80px;
+        width: 1500px;
+        
+    }
+    
+
+}
+
+/*MEDIA QUERIE PARA O CAMPO DE BUSCA*/
+@media screen and (max-width: 1300px){
+
+    .busca{
+
+        margin: 0;
+        height: 40px;
+        width: 450px;
+        
+    }
+
+}
+
+/*MEDIA QUERIE PARA O CAMPO DE BUSCA*/
+@media screen and (max-width: 1100px){
+
+    .busca{
+
+        margin: 0;
+        height: 40px;
+        width: 550px;
+        
+    }
+
+}
+
+/*MEDIA QUERIE PARA O CAMPO DE BUSCA*/
+@media screen and (max-width: 600px){
+
+    .busca{
+
+        margin: 0;
+        height: 40px;
+        width: 400px;
+        
+    }
+
+}
+
+/*MEDIA QUERIE PARA O CAMPO DE BUSCA*/
+@media screen and (max-width: 500px){
+
+    .busca{
+
+        margin: 0;
+        height: 40px;
+        width: 300px;
+        
+    }
+
+}
+
+/*MEDIA QUERIE PARA O CAMPO DE BUSCA*/
+@media screen and (max-width: 350px){
+
+    .busca{
+
+        margin: 0;
+        height: 40px;
+        width: 250px;
+        
+    }
+
+}
+
+/*ESTILO PARA A ESCRITA DENTRO DO CAMPO DE BUSCA*/
+.pesquisa{
+
+    font-family: "Dosis", sans-serif;
+    font-size: 20px;
+    background: none;
+    border: 0;
+    outline: 0;
+    padding: 20px;
+    width: 700px;
+
+}
+
+/*MEDIA QUERIA PARA A ESCRITA DO CAMPO DE BUSCA*/
+@media screen and (min-width: 2560px){
+
+    .pesquisa{
+
+        font-size: 40px;
+    
+    }
+    
+}
+
+/*MEDIA QUERIA PARA A ESCRITA DO CAMPO DE BUSCA*/
+@media screen and (max-width: 500px){
+
+    .pesquisa{
+
+        padding: 0px;
+    
+    }
+    
+}
+
+/*MEDIA QUERIA PARA A ESCRITA DO CAMPO DE BUSCA*/
+@media screen and (max-width: 350px){
+
+    .pesquisa{
+
+        font-size: 16px;
+    
+    }
+    
+}
+
+/*ESTILO PARA O BOTÃO DE PESQUISAR*/
+.botao{
+
+    background: none;
+    border: none;
+    cursor: pointer;
+
+}
+
+/*ESTILO PARA A LUPA DO CAMPO DE BUSCA*/
+.lupa{
+
+    margin: 10px;
+    height: 25px;
+    width: 25px;
+
+}
+
+/*ESTILO PARA O MENU PRINCIPAL*/
+nav{
+
+    background: rgba(179, 145, 145, 0.8);
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    position: fixed;
+    top: 115px;
+    width: 100%;
+    z-index: 999;
+
+}
+
+/*MEDIA QUERIA PARA O MENU PRINCIPAL*/
+@media screen and (min-width: 2560px){
+
+    nav{
+
+        top: 190px;
+    
+    }
+    
+}
+
+/*MEDIA QUERIA PARA O MENU PRINCIPAL*/
+@media screen and (max-width: 1100px){
+
+    nav{
+
+        top: 113px;
+    
+    }
+    
+}
+
+/*MEDIA QUERIA PARA O MENU PRINCIPAL*/
+@media screen and (max-width: 653px){
+
+    nav{
+
+        top: 115px;
+    
+    }
+    
+}
+
+/*MEDIA QUERIA PARA O MENU PRINCIPAL*/
+@media screen and (max-width: 600px){
+
+    nav{
+
+        top: 113px;
+    
+    }
+    
+}
+
+/*ESTILO PARA A LISTA NÃO ORDENADA*/
+.menu{
+
+    list-style-type: none;
+    
+}
+
+/*ESTILO PARA OS ITEMS DA LISTA, INCLUINDO O DROPDOWN*/
+li{
+
+    float: left;
+
+}
+
+/*ESTILO PARA OS ITEMS DA LISTA, INCLUINDO O DROPDOWN*/
+li a, .botao-drop{
+
+    font-size: 20px;
+    font-family: "Dosis", sans-serif;
+    letter-spacing: 2px;
+    padding: 0px 120px 0px 120px;
+    color: rgb(255, 255, 255);
+    text-decoration: none;
+
+}
+
+/*MEDIA QUERIA PARA OS ITEMS DA LISTA*/
+@media screen and (min-width: 2560px){
+
+    li a, .botao-drop{
+
+        font-size: 30px;
+        padding: 0px 150px 0px 150px;
+    
+    }
+    
+}
+
+/*MEDIA QUERIA PARA OS ITEMS DA LISTA*/
+@media screen and (max-width: 1372px){
+
+    li a, .botao-drop{
+
+        padding: 0px 100px 0px 100px;
+
+    
+    }
+    
+}
+
+/*MEDIA QUERIA PARA OS ITEMS DA LISTA*/
+@media screen and (max-width: 1212px){
+
+    li a, .botao-drop{
+
+        padding: 0px 80px 0px 80px;
+
+    
+    }
+    
+}
+
+/*MEDIA QUERIA PARA OS ITEMS DA LISTA*/
+@media screen and (max-width: 1100px){
+
+    li a, .botao-drop{
+
+        padding: 0px 50px 0px 50px;
+
+    
+    }
+    
+}
+
+/*MEDIA QUERIA PARA OS ITEMS DA LISTA*/
+@media screen and (max-width: 812px){
+
+    li a, .botao-drop{
+
+        padding: 0px 30px 0px 30px;
+
+    
+    }
+    
+}
+
+/*MEDIA QUERIA PARA OS ITEMS DA LISTA*/
+@media screen and (max-width: 652px){
+
+    li a, .botao-drop{
+
+        font-size: 15px;
+        padding: 0px 12px 0px 12px;
+
+    
+    }
+
+}
+
+/*MEDIA QUERIA PARA OS ITEMS DA LISTA*/
+@media screen and (max-width: 400px){
+
+    li a, .botao-drop{
+
+        font-size: 12px;
+        padding: 0px 12px 0px 12px;
+
+    
+    }
+
+}
+
+/*MEDIA QUERIA PARA OS ITEMS DA LISTA*/
+@media screen and (max-width: 350px){
+
+    li a, .botao-drop{
+
+        font-size: 10px;
+        padding: 0px 5px 0px 5px;
+
+    
+    }
+
+}
+
+/*ANIMAÇÃO PARA OS ITEMS DA LISTA*/
+li a:hover, .dropdown:hover .botao-drop{
+
+    text-decoration:underline;
+
+}
+
+li.dropdown{
+
+    display: inline-block;
+
+}
+
+/*ESTILO PARA O CONTEÚDO DA LISTA*/
+.conteudo{
+
+    display: none;
+    position: absolute;
+    
+}
+
+/*ESTILO PARA O CONTEÚDO DA LISTA*/
+.conteudo a{
+   
+    background: rgba(179, 145, 145, 0.8);
+    text-align: center;
+    font-size: 15px;
+    display: inline-block;
+    padding: 5px;
+    
+}
+
+/*MEDIA QUERIA PARA O CONTEÚDO DA LISTA*/
+@media screen and (min-width: 2560px){
+
+    .conteudo a{
+
+        font-size: 30px;
+        
+    }
+    
+
+}
+
+/*ANIMAÇÃO PARA O CONTEÚDO DA LISTA*/
+.conteudo a:hover{
+
+    color: rgb(255, 255, 255);
+
+}
+
+
+.dropdown:hover .conteudo{
+
+    display: block;
+
+}
+
+/*ESTILO PARA OS ELEMENTOS DA LISTA*/
+.borda, .botao-drop{
+
+    border-right: 1px solid rgb(255, 255, 255);
+
+}
+
+/*ESTILO PARA O BANNER PRINCIPAL*/
+.banner{
+
+    background-image: url(/IMG/3.png);
+    width: 100%;
+    background-size: cover;
+    height: 800px;
+
+}
+
+/*MEDIA QUERIA PARA O BANNER PRINCIPAL*/
+@media screen and (max-width: 2610px){
+
+    .banner{
+
+        width: 100%;
+        background-position: center;
+        height: 1400px;
+    
+    }
+
+}
+
+/*MEDIA QUERIA PARA O BANNER PRINCIPAL*/
+@media screen and (max-width: 2200px){
+
+    .banner{
+
+        width: 100%;
+        background-position: center;
+        height: 1200px;
+    
+    }
+
+}
+
+/*MEDIA QUERIA PARA O BANNER PRINCIPAL*/
+@media screen and (max-width: 2000px){
+
+    .banner{
+
+        width: 100%;
+        background-position: center;
+        height: 1200px;
+    
+    }
+
+}
+
+
+/*MEDIA QUERIA PARA O BANNER PRINCIPAL*/
+@media screen and (max-width: 1700px){
+
+    .banner{
+
+        width: 100%;
+        background-position: center;
+        height: 1000px;
+    
+    }
+
+}
+
+/*MEDIA QUERIA PARA O BANNER PRINCIPAL*/
+@media screen and (max-width: 1520px){
+
+    .banner{
+
+
+        width: 100%;
+        background-position: center;
+        height: 900px;
+    
+    }
+
+}
+
+/*MEDIA QUERIA PARA O BANNER PRINCIPAL*/
+@media screen and (max-width: 1300px){
+
+    .banner{
+
+        margin-top: 115px;
+        width: 100%;
+        background-position: center;
+        height: 540px;
+    
+    }
+    
+
+}
+
+/*MEDIA QUERIA PARA O BANNER PRINCIPAL*/
+@media screen and (max-width: 900px){
+
+    .banner{
+
+        margin-top: 115px;
+        width: 100%;
+        background-position: center;
+        height: 400px;
+    
+    }
+    
+
+}
+
+
+/*MEDIA QUERIA PARA O BANNER PRINCIPAL*/
+@media screen and (max-width: 500px){
+
+    .banner{
+
+        margin-top: 130px;
+        width: 100%;
+        background-position: center;
+        height: 200px;
+    
+    }
+    
+
+}
+
+/*ESTILO PARAS OS TÍTULOS GUIA*/
+#novidades{
+
+    font-size: 20px;
+    font-family: "Dosis", sans-serif;
+    letter-spacing: 20px;
+    margin: 30px;
+    text-align: center;
+
+}
+
+/*MEDIA QUERIE PARA OS TÍTULOS GUIA*/
+@media screen and (min-width: 2560px){
+
+    #novidades{
+
+        font-size: 40px;
+    
+    }
+}
+
+/*ESTILO PARA O CONJUNTO DE ROUPAS*/
+.especiais{
+
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    gap: 50px;
+
+}
+
+/*MEDIA QUERIE PARA O CONJUNTO DE ROUPAS*/
+@media screen and (max-width: 1100px){
+
+    .especiais{
+
+        flex-wrap: wrap;
+
+    }
+
+}
+
+/*ESTILO PARA LINKS DENTRO DA SEÇÃO DE ROUPAS*/
+.especiais a{
+
+    font-family: "Dosis", sans-serif;
+    text-decoration: none;
+    position: absolute;
+    text-align: center;
+    background: rgb(0, 0, 0);
+    color: white;
+    top: 70%;
+    font-size: 30px;
+    padding: 3px 100px 3px 100px;
+    
+}
+
+/*ESTILO PARA SEÇÃO BLAZERS*/
+.imagem1{
+    
+    position: relative;
+    width: 400px;
+    height: 400px;
+    background-image: url(/IMG/pexels-thomas-nguka-46791184-10112436.jpg);
+    background-size: cover;
+    opacity: 0.5;
+
+}
+
+/*ESTILO PARA SEÇÃO TERNOS*/
+.imagem2{
+
+    position: relative;
+    width: 400px;
+    height: 400px;
+    background-image: url(/IMG/pexels-mahmoud-abdelwahab-3667715-7083673.jpg);
+    background-size: cover;
+    opacity: 0.5;
+
+}
+
+/*ESTILO PARA SEÇÃO CASACOS*/
+.imagem3{
+
+    position: relative;
+    width: 400px;
+    height: 400px;
+    background-image: url(/IMG/blazer-feminino-cruzado-com-botoes-xadrez-65f32fdb2fe8a.jpg);
+    background-size: cover;
+    opacity: 0.5;
+
+}
+
+/*MEDIA QUERIE PARA A SEÇÃO DE CONJUNTOS*/
+@media screen and (min-width: 2560px){
+
+    .imagem1, .imagem2, .imagem3{
+
+        width: 750px;
+        height: 750px;
+    
+    }
+
+}
+
+/*MEDIA QUERIE PARA A SEÇÃO DE CONJUNTOS*/
+@media screen and (max-width: 900px){
+
+    .imagem1, .imagem2, .imagem3{
+
+        width: 350px;
+        height: 350px;
+    
+    }
+
+}
+
+/*ANIMAÇÃO PARA A SEÇÃO DE CONJUNTOS*/
+.imagem1:hover, .imagem2:hover, .imagem3:hover{
+
+    opacity: 1;
+
+}
+
+/*ANIMAÇÃO PARA OS LINKS DAS IMAGENS DA SEÇÃO DE CONJUNTOS*/
+.imagem1 a:visited, .imagem2 a:visited, .imagem3 a:visited{
+
+    text-decoration: none;
+    color: white;
+
+}
+
+/*ESTILO PARA O FILTRO DE ROUPAS*/
+#filtros{
+
+    display: flex;
+    justify-content: center;
+    gap: 100px;
+    background: rgba(179, 145, 145);
+    width: 100%;
+
+}
+
+/*MEDIA QUERIE PARA O FILTRO DE ROUPAS*/
+@media screen and (max-width: 1200px){
+
+    #filtros{
+
+        gap: 5px;
+        flex-wrap: wrap;
+    
+    }
+
+}
+
+/*ESTILO PARA OS LINKS DO FILTRO DE ROUPAS*/
+#filtros a{
+
+    font-size: 21px;
+    font-family: "Dosis", sans-serif;
+    text-decoration: none;
+    color: rgb(255, 255, 255);
+    padding: 10px 50px 10px 50px;
+
+}
+
+/*MEDIA QUERIE PARA OS LINKS DO FILTRO DE ROUPAS*/
+@media screen and (min-width: 2560px){
+
+    #filtros a{
+
+        font-size: 40px;
+    
+    }
+
+}
+
+/*ANIMAÇÃO PARA OS LINKS DO FILTRO DE ROUPAS*/
+#filtros a:hover{
+
+    text-decoration: underline;
+
+}
+
+/*ESTILO PARA A DIVISÃO DE CARDS*/
+.cards{
+
+    position: relative;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    gap: 30px;
+    flex-direction: row;
+    margin: 30px;
+
+}
+
+/*MEDIA QUERIE PARA A DIVISÃO DE CARDS*/
+@media screen and (max-width: 1100px){
+
+    .cards{
+
+        flex-wrap: wrap;
+
+    }
+
+}
+
+/*ESTILO PARA OS CARDS*/
+.card{
+
+    position: relative;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    color: white;
+    background: rgb(255, 255, 255);
+    width: 400px;
+    height: 600px;
+    border: 1px solid rgb(230, 230, 230);
+
+}
+
+/*MEDIA QUERIE PARA OS CARS*/
+@media screen and (min-width: 2560px){
+
+    .card{
+
+        width: 800px;
+        height: 1100px;
+    
+    }
+
+}
+
+/*MEDIA QUERIE PARA OS CARS*/
+@media screen and (max-width: 900px){
+
+    .card{
+
+        width: 300px;
+        height: 500px;
+    
+    }
+
+}
+
+/*IMAGEM DOS CARDS*/
+.produto{
+    
+    width: 400px;
+    height: 500px;
+
+}
+
+/*MEDIA QUERIE PARA A IMAGEM DOS CARDS*/
+@media screen and (min-width: 2560px){
+
+    .produto{
+    
+        width: 800px;
+        height: 900px;
+    
+    
+    }
+
+}
+
+/*MEDIA QUERIE PARA A IMAGEM DOS CARDS*/
+@media screen and (max-width: 900px){
+
+    .produto{
+    
+        width: 300px;
+        height: 400px;
+    
+    }
+
+}
+
+/*ESTILO PARA AS INFORMAÇÕES DOS CARDS (DESCRIÇÃO, NOME, PREÇO)*/
+.card p, h3, h4{
+
+    font-family: "Dosis", sans-serif;
+    margin: 3px;
+    color: black;
+    text-align: center;
+
+}
+
+/*MEDIA QUERIE PARA AS INFORMAÇÕES DOS CARDS*/
+@media screen and (min-width: 2560px){
+
+    .card p, h3, h4{
+
+        margin: 8px;
+        font-size: 40px;
+    
+    }
+
+}
+
+/*ESTILO PARA AS INFORMAÇÕES DOS CARDS (NOME)*/
+.card h3{
+
+    font-size: 20px;
+    font-style: italic;
+    text-decoration: underline;
+
+}
+
+/*MEDIA QUERIE PARA AS INFORMAÇÕES DOS CARDS*/
+@media screen and (min-width: 2560px){
+
+    .card h3{
+
+        font-size: 40px;
+    
+    }
+
+}
+
+/*ESTILO PARA AS INFORMAÇÕES DOS CARDS (PREÇO)*/
+.card h4{
+
+    font-size: 20px;
+    padding: 3px 10px 3px 10px;
+    background: rgba(179, 145, 145, 0.8);
+    color: rgb(0, 0, 0);
+
+}
+
+/*MEDIA QUERIE PARA AS INFORMAÇÕES DOS CARDS*/
+@media screen and (min-width: 2560px){
+
+    .card h4{
+
+        font-size: 40px;
+    
+    }
+
+}
+
+/*ESTILO PARA OS LINKS DENTRO DOS CARDS*/
+.card a{
+
+    font-family: "Dosis", sans-serif;
+    text-decoration: none;
+    font-size: 20px;
+    text-align: center;
+    width: 100%;
+    color: black;
+    background: rgba(179, 145, 145, 0.8);
+    bottom: 97px;
+    position: absolute;
+    z-index: 999;
+
+}
+
+/*MEDIA QUERIE PARA OS LINKS DENTRO DOS CARDS*/
+@media screen and (min-width: 2560px){
+
+    .card a{
+
+        bottom: 200px;
+        font-size: 40px;
+    
+    }
+
+}
+
+/*ANIMAÇÃO PARA OS LINKS DOS CARDS*/
+.card a:hover{
+
+    color: white;
+
+}
+
+/*ESTILO PARA O RODAPÉ DO SITE*/
+footer{
+
+    width: 100%;
+    background: black;
+
+}
+
+/*ESTILO PARA O CONTEÚDO DO RODAPÉ*/    
+#footer_conteudo{
+
+    margin: 20px;
+    color: white;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    gap: 20px;
+
+}
+
+/*MEDIA QUERIE PARA O CONTEÚDO DO RODAPÉ*/
+@media screen and (max-width: 768px){
+
+    #footer_conteudo{
+
+        margin: 0px;
+        flex-direction: column;
+        gap: 0px;
+
+    }
+
+}
+
+/*ESTILO PARA A LOGO DO RODAPÉ*/
+#logo img{
+
+    margin: 10px;
+    width: 100px;
+    height: 100px;
+
+}
+
+/*MEDIA QUERIE PARA A LOGO DO RODAPÉ*/
+@media screen and (min-width: 2560px){
+
+    #logo img{
+
+        margin: 10px 50px 10px 10px;
+        width: 250px;
+        height: 250px;
+    
+    }
+    
+}
+
+/*ESTILO PARA OS CONTADOS DO RODAPÉ*/
+#contatos{
+
+    display: flex;
+    gap: 20px;
+
+}
+
+/*MEDIA QUERIE PARA OS CONTADOS DO RODAPÉ*/
+@media screen and (min-width: 2560px){
+
+    #contatos{
+
+
+        gap: 50px;
+    
+    }
+    
+}
+
+/*ESTILO PARA AS IMAGENS DOS CONTATOS DO RODAPÉ*/
+#contatos img{
+
+    width: 30px;
+    height: 30px;
+    margin-top: 30px;
+
+}
+
+/*MEDIA QUERIA PARA AS IMAGENS DO RODAPÉ*/
+@media screen and (min-width: 2560px){
+
+    #contatos img{
+
+        width: 90px;
+        height: 90px;
+        margin-top: 30px;
+    
+    }
+    
+}
+
+/*ESTILO COPYRIGHT*/
+#copyright{
+
+    display: flex;
+    font-family: "Dosis", sans-serif;
+    justify-content: center;
+    color: white;
+    margin-top: 20px;
+
+}
+
+/*MEDIA QUERIE COPYRIGHT*/
+@media screen and (min-width: 2560px){
+
+    #copyright{
+
+        font-size: 40px;
+        margin-top: 20px;
+    
+    }
+
+}

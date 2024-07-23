@@ -1,0 +1,193 @@
+/*ESTILO PARA O CORPO PRINCIPAL DA PÁGINA COM O OBJETIVO DE ALINHAMENTO*/
+body{
+
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    background: rgb(202, 202, 202);
+
+}
+
+/*ESTILO PARA A DIVISÃO DOS CONTATOS DA EMPRESA*/
+.contato{
+
+    position: relative;
+    margin-top: 170px;
+    margin-bottom: 50px;
+    background: rgb(255, 255, 255);
+    width: 80%;
+    max-width: 700px;
+    border: 1px solid gray;
+    border-radius: 20px;
+    box-shadow: 1px 1px 15px rgb(0, 0, 0);
+
+}
+
+/*MEDIA QUERIE PARA A DIVISÃO DOS CONTATOS DA EMPRESA*/
+@media screen and (min-width: 2000px){
+
+    .contato {
+
+        margin-top: 300px;
+        max-width: 1100px;
+
+    }
+
+}
+
+/*MEDIA QUERIE PARA A DIVISÃO DOS CONTATOS DA EMPRESA*/
+@media screen and (max-width: 600px){
+
+    .contato {
+
+        width: 90%;
+
+    }
+
+}
+
+/*ESTILO PARA A DIVISÃO DOS CONTATOS DA EMPRESA*/
+.contato h2{
+
+    font-family: "Dosis", sans-serif;
+    text-align: center;
+
+}
+
+/*ESTILO PARA A SEÇÃO COM REDES SOCIAIS DA EMPRESA*/
+#redes-sociais {
+
+    margin: 30px;
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    gap: 30px;
+
+}
+
+/*MEDIA QUERIE PARA A SEÇÃO COM REDES SOCIAIS DA EMPRESA*/
+@media screen and (min-width: 2560px){
+
+    #redes-sociais {
+
+        margin: 100px;
+        gap: 100px;
+
+    }
+
+}
+
+/*MEDIA QUERIE PARA A SEÇÃO COM REDES SOCIAIS DA EMPRESA*/
+@media screen and (max-width: 500px){
+
+    #redes-sociais {
+
+        margin: 15px;
+        gap: 15px;
+
+    }
+
+}
+
+/*ESTILO PARA AS DIVISÕES DAS REDES SOCIAIS E CONTATOS DA EMPRESA*/
+#insta, #twitter, #linkedin, #github, #email, #telefone{
+
+    z-index: 1;
+    margin: 5px;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    gap: 10px;
+
+}
+
+/*MEDIA QUERIE PARA AS DIVISÕES DAS REDES SOCIAIS E CONTATOS DA EMPRESA*/
+@media screen and (max-width: 500px){
+
+    #insta, #twitter, #linkedin, #github, #email, #telefone {
+
+        margin: 0px;
+
+    }
+
+}
+
+/*ESTILO PARA A IMAGEM DA EMPRESA AO FUNDO*/
+.cavalopreto{
+
+    position: absolute;
+    z-index: 0;
+    opacity: 0.08;
+    width: 100%;
+    max-width: 400px;
+    height: auto;
+    margin-top: 50px;
+
+}
+
+/*MEDIA QUERIE PARA A IMAGEM DA EMPRESA AO FUNDO*/
+@media screen and (max-width: 500px){
+
+    .cavalopreto {
+
+        max-width: 250px;
+
+    }
+
+}
+
+/*ESTILO PARA A DIVISÃO DE CONTATOS DA EMPRESA (EMAIL E TELEFONE)*/
+.telefone-email{
+
+    display: flex;
+    flex-direction: row;
+    gap: 10px;
+
+}
+
+/*MEDIA QUERIE PARA A DIVISÃO DE CONTATOS DA EMPRESA (EMAIL E TELEFONE)*/
+@media screen and (max-width: 500px){
+
+    .telefone-email {
+
+        flex-direction: column;
+
+    }
+
+}
+
+/*ESTILO PARA OS CONTATOS DA EMPRESA (EMAIL E TELEFONE)*/
+#rd {
+
+    
+    z-index: 1;
+    width: 40px;
+    height: 40px;
+
+}
+
+/*MEDIA QUERIE PARA OS CONTATOS DA EMPRESA (EMAIL E TELEFONE)*/
+@media screen and (max-width: 500px){
+
+    #rd {
+
+        z-index: 1;
+        width: 30px;
+        height: 30px;
+
+    }
+
+}
+
+/*MEDIA QUERIE PARA OS CONTATOS DA EMPRESA (EMAIL E TELEFONE*/
+@media screen and (max-width: 375px){
+
+    #rd {
+
+        width: 30px;
+        height: 30px;
+
+    }
+
+}
+

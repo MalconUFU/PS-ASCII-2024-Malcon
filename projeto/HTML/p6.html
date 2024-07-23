@@ -1,0 +1,167 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Elegance | Calça Alfaiataria</title>
+    <link rel="stylesheet" href="/CSS/folha-pg.css">
+    <link rel="stylesheet" href="/CSS/folha-produtos.css">
+
+</head>
+
+<body>
+
+    <header>
+
+        <a href="/HTML/index.html"><img class="logotipo" src="/IMG/cabeca-de-cavalo-com-contorno-de-cabelo-em-vista-lateral.png"></a>
+
+        <h1 class="titulo"><a href="/HTML/index.html">Elegance</a></h1>
+
+        <div class="busca">
+
+            <input type="text" class="pesquisa" placeholder="O que você procura hoje?">
+
+            <button class="botao" type="submit"> <img class="lupa" src="/IMG/lupa-arredondada.png"></button>
+
+        </div>
+
+        <nav>
+
+            <ul class="menu">
+
+                <li><a class="borda" href="index.html">Home</a></li>
+                <li class="dropdown">
+                    <a class="botao-drop" href="/HTML/produtos.html">Produtos</a>
+                    <div class="conteudo">
+                        <a href="/HTML/masculino.html">Social Masculino</a>
+                        <a href="/HTML/feminino.html">Social Feminino</a>
+                        <a href="/HTML/infantil.html">Social Infantil</a>
+                    </div>
+                </li>
+                <li><a class="borda" href="/HTML/sobre.html">Sobre nós</a></li>
+                <li><a href="/HTML/contato.html">Contato</a></li>
+
+            </ul>
+
+        </nav>
+
+    </header>
+
+    <!--SEÇÃO DE COMPRA-->
+    <div id="compra">
+
+        <!--SEÇÃO PARA O NOME E DESCRIÇÃO DO PRODUTO-->
+        <div class="nome-descricao">
+
+            <h1>Camisa Oxford</h1>
+
+            <div class="especificacoes">
+
+                <p>Nome: Calça Feminina Reta Alfaiataria Satin Cotton</p><br>
+                <p>Departamento: Marisa</p><br>
+                <p>Marca: Elegance</p><br>
+                <p>Composição: 97% algodão / 3% elastano </p><br>
+
+            </div>
+
+            <div class="descricao">
+
+                <h2>Descrição</h2>
+                <br>
+                <p>Calça feminina, modelo reta, confeccionada em tecido algodão e elastano satin cotton. Possui cintura alta, fechamento por zíper e botão, bolsos frontais, acabamento e costura no tom. <br><br> O que é satin cotton?
+                O cetim de algodão (satin cotton) é um tecido macio e esvoaçante. É um tecido leve com uma trama de cetim que torna o tecido extremamente macio e lhe dá um brilho sutil.</p>
+
+            </div>
+
+        </div>
+        
+        <!--IMAGEM DO PRODUTO-->
+        <img class="roupa" src="/IMG/CALCA-COTTON-SATIN-MASS-AREIA-ARE-42-10054591127-C1.webp">
+
+        <!--FORMULÁRIO PARA A ESCOLHA DO TAMANHO, COR, QUANTIDADE-->
+        <form class="formulario">
+
+            <h2>Tamanhos</h2>
+
+            <div class="tamanhos">
+
+                <input type="radio" id="P" name="tamanhos" value="1">
+                <label for="P" id="p"></label>
+                
+                <input type="radio" id="M" name="tamanhos" value="2">
+                <label for="M" id="m"></label>
+                
+                <input type="radio" id="G" name="tamanhos" value="3">
+                <label for="G" id="g"></label>
+                
+                <input type="radio" id="GG" name="tamanhos" value="4">
+                <label for="GG" id="gg"></label>
+
+            </div>
+
+            <h2>Cores</h2>
+
+            <select required name="cores">
+
+                <option selected disabled value="">Selecione uma cor</option>
+                <option value="5">Bege</option>
+                <option value="6">Preto</option>
+                <option value="7">Branco</option>
+                <option value="8">Cinza</option>
+
+            </select>
+
+            <h2>Quantidade</h2>
+
+            <input required type="text" id="quantidade" placeholder="Número de peças">
+
+            <div class="preco">
+
+                <h1>R$ 129,99</h1>
+                <!--MENSAGEM DE COMPRA À VISTA-->
+                <p id="av">à vista</p>
+                <p>4x de R$ 33,50 sem juros</p>
+
+            </div>
+
+            <div id="comprar">
+
+                <a href="/HTML/compra.html">COMPRAR</a>
+
+            </div>
+
+        </form>
+
+    </div>
+
+    <footer>
+
+        <div id="footer_conteudo">
+
+            <div id="logo">
+    
+                <img src="/IMG/cabeca-de-cavalo-com-contorno-de-cabelo-em-vista-lateral.png">
+    
+            </div>
+
+            <div id="contatos">
+
+                <a href="https://br.linkedin.com/" target="_blank"><img src="/IMG/linkedin.png"></a>
+                <a href="https://www.instagram.com" target="_blank"><img src="/IMG/logotipo-do-instagram.png"></a>
+                <a href="https://x.com/" target="_blank"><img src="/IMG/twitter.png"></a>
+
+            </div>
+
+        </div>
+
+        <div id="copyright">
+
+            &#169 2024 Elegance. Todos os direitos reservados.
+            
+        </div>
+
+    </footer>
+    
+</body>
+
+</html>
